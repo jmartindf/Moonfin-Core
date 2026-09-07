@@ -105,6 +105,15 @@ app.*.map.json
 /build-ios.private.env
 /ios/Flutter/Local.xcconfig
 
+# tvOS IPA artifacts and local signing overrides
+/Moonfin-tvos.ipa
+/Moonfin-tvos-unsigned.ipa
+/Moonfin_tvOS_v*.ipa
+/Moonfin_tvOS_v*_unsigned.ipa
+/build-tvos.private.env
+/tvos/Flutter/Local.xcconfig
+/tvos/local-ExportOptions.plist
+
 # Linux package artifacts
 /Moonfin-linux-*
 /Moonfin_Linux_v*.AppImage
